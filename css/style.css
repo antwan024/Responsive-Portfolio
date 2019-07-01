@@ -1,0 +1,119 @@
+.banner {
+    background-color: #ffffff;
+        
+    
+    
+}
+
+.header {
+    
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 0%;
+    border: 10px;
+}
+
+.header-name {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    
+    
+}
+
+.links {
+    float: right;
+    padding: 30px 0;
+    
+}
+
+.trimTop {
+    clear: both;
+    background-color: #cccccc;
+    height: 5px;
+
+}
+
+.content {
+    background-color:#ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    padding: 5px;
+    margin: 15px 0px 25px 0px ;
+
+}
+
+#myimage{
+    float: left;
+    padding: 10px;
+}
+
+.trimBottom {
+    clear: both;
+    background-color: #4aaaa5;
+    height: 5px;
+
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    padding-top: 80px;
+    height: 7%;
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+   }
+
+
+.portfolio {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: table-cell;
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+    
+    
+   
+}
+
+.portfolioText {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    
+}
+
+
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    
+    background-image: url("../images/floor-tile.png");
+    
+
+
+}
+
+#teal {
+    color: #4aaaa5;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
