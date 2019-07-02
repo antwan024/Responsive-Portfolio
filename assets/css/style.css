@@ -79,9 +79,6 @@
     display: table-cell;
     margin: 20px 20px 20px 20px;
     display: inline-block;
-    
-    
-   
 }
 
 .portfolioText {
@@ -116,4 +113,62 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width: 980px) {
+    .main {
+        width: 450px;
+        float: left;
+    }
+
+    .links {
+        
+        width: 450px;
+        text-align: right;
+        padding-right: 50px;
+        
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 765px;
+        clear: both;
+    }
+
+    .links {
+        
+        width: 250px;
+        text-align: right;
+        padding-right: 250px;
+        
+   }
+
+   
+
+}
+
+@media screen and (max-width: 640px) {
+   .header{
+       position: static;
+       
+   }
+   .main {
+        width: 635px;
+        clear: both;
+    }
+
+   .header-name{
+       clear: both;
+       width: 635px;
+       text-align: center;
+   }
+
+   .links {
+        clear: both;
+        float: left;
+        width: 635px;
+        text-align: center;
+   }
 }
